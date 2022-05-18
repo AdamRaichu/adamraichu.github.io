@@ -1,0 +1,30 @@
+body {
+    background-color: #30353d;
+}
+
+div#links {
+    display: flex;
+    justify-content: space-around;
+}
+
+#links a {
+    height: 450px;
+    color: white;
+}
+
+#links a h2 {
+    margin: 0px;
+    text-align: center;
+}
+
+img#snake {
+    content: url(images/snake.png);
+    background-color: white;
+}
+
+img#graph {
+    content: url(images/graph.png);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+}
