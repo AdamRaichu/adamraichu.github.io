@@ -11,6 +11,7 @@ div#links {
     height: 450px;
     background-color: #30353d;
     color: white;
+    margin-bottom: 50px;
 }
 
 #links a h2 {
@@ -28,4 +29,9 @@ img#graph {
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: white;
+}
+
+img#maze {
+    content: url(images/maze.png);
+    margin: 89px;
 }
