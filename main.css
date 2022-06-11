@@ -5,6 +5,7 @@ body {
 div#links {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #links a {
