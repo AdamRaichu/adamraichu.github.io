@@ -1,5 +1,11 @@
 function createPopup(HTML, options) {
-  // Version 1.1.1
+  // Version 1.2.0
+  // To be accompanied by popup.css.
+
+  if (typeof HTML !== "string") {
+    console.warn("%ccreatePopup:", "font-weight: bold; color: white", `typeof HTML !== "string"; Falling back to \`JSON.stringify(HTML)\``);
+    HTML = JSON.stringify(HTML);
+  }
   if (typeof options !== "object") {
     if (typeof options !== "undefined") {
       console.warn("%ccreatePopup:", "font-weight: bold; color: white", 'typeof options !== "object"; Falling back to `{}`');
