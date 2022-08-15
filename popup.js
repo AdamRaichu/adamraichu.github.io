@@ -1,7 +1,8 @@
 function createPopup(HTML, options) {
+  // Version 1.1.1
   if (typeof options !== "object") {
     if (typeof options !== "undefined") {
-      console.warn('typeof options !== "object"\nFalling back to `{}`');
+      console.warn("%ccreatePopup:", "font-weight: bold; color: white", 'typeof options !== "object"; Falling back to `{}`');
     }
     options = {};
   }
@@ -25,6 +26,13 @@ function createPopup(HTML, options) {
     if (typeof options.popup.color === "string") {
       popup.style.backgroundColor = options.popup.color;
     }
+    if (typeof options.popup.h1Center === "boolean") {
+      if (options.popup.h1Center) {
+        popup.classList.add("h1-center");
+      }
+    }
+  } else {
+    popup.classList.add("h1-center");
   }
   wrapper.appendChild(popup);
 
