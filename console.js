@@ -3,6 +3,7 @@ var _ConsoleInfo = console.info;
 var _ConsoleWarn = console.warn;
 var _ConsoleError = console.error;
 var _ConsoleGroup = console.group;
+var _ConsoleDebug = console.debug;
 var fName = "";
 console.log = function () {
   args = [];
@@ -53,4 +54,14 @@ console.group = function () {
     args.push(arguments[i]);
   }
   _ConsoleGroup.apply(console, args);
+};
+console.debug = function () {
+  args = [];
+  args.push('%c[' + fName + '] ');
+  args.push('color: #ae7337')
+  // Note: arguments is part of the prototype
+  for (var i = 0; i < arguments.length; i++) {
+    args.push(arguments[i]);
+  }
+  _ConsoleDebug.apply(console, args);
 };
