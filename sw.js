@@ -1,5 +1,5 @@
 const cacheName = 'c';
-const filestoCache = [
+const filesToCache = [
   '/',
   '/images/maze.png',
   '/images/snake.png',
