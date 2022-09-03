@@ -1,10 +1,22 @@
 const cacheName = 'c';
 const filesToCache = [
+  // /index.html
   '/',
+  '/index.html',
+  '/main.css',
   '/images/maze.png',
   '/images/snake.png',
-  '/main.css',
-  '/index.html'
+  // games/maze/index.html
+  '/games/maze/',
+  '/games/maze/index.html',
+  '/console.js',
+  '/games/maze/maps.js',
+  '/games/maze/constructor.js',
+  '/popup.js',
+  '/games/maze/load.js',
+  '/games/maze/footer.js',
+  '/games/maze/style.css',
+  '/popup.css'
 ];
 
 self.addEventListener('install', e => {
