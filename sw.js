@@ -19,7 +19,8 @@ const filesToCache = [
   '/games/maze/footer.js',
   '/games/maze/style.css',
   '/popup.css',
-  '/images/bricks.png'
+  '/images/bricks.png',
+  '/images/key.png'
 ];
 
 self.addEventListener('install', e => {
