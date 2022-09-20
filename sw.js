@@ -19,7 +19,7 @@ const filesToCache = [
   '/games/maze/footer.js',
   '/games/maze/style.css',
   '/popup.css',
-  '/images/bricks.png',
+  '/images/bricks.jpg',
   '/images/key.png'
 ];
 
