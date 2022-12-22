@@ -1,0 +1,22 @@
+{
+  "name": "AdamRaichu's First Progressive Web App",
+  "short_name": "AdamRaichu's 1st PWA",
+  "description": "My First PWA (this is a test)",
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "background_color": "#1f2227",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/images/key.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/emoji-512px.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
