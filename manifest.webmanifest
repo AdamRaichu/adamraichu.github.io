@@ -2,6 +2,7 @@
   "name": "AdamRaichu's First Progressive Web App",
   "short_name": "AdamRaichu's 1st PWA",
   "description": "My First PWA (this is a test)",
+  "display": "standalone",
   "id": "/?source=pwa",
   "start_url": "/?source=pwa",
   "scope": "/",
@@ -11,12 +12,12 @@
     {
       "src": "/images/key.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "512x512"
     },
     {
-      "src": "/images/emoji-512px.png",
+      "src": "/images/poke-192px.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "192x192"
     }
   ]
 }
